@@ -13,6 +13,11 @@ input {
     border: 1.5px solid #0b46c4;
 }
 
+/* input:focus {
+    border: 1px solid #0b46c4;
+    box-shadow: 0 0 4px 2px #0b46c4;
+} */
+
 button {
     margin-top: 5px;
     color: whitesmoke;
@@ -20,6 +25,13 @@ button {
     padding: 10px 20px;
     border: 2px solid #0b46c4;
     border-radius: 3.5px;
+}
+
+button:hover {
+    transform: translate(2px);
+    background-color: white;
+    color: #0b46c4;
+    transition: 0.3s;
 }
 
 #delete-btn {
