@@ -13,10 +13,9 @@ input {
     border: 1.5px solid #0b46c4;
 }
 
-/* input:focus {
-    border: 1px solid #0b46c4;
-    box-shadow: 0 0 4px 2px #0b46c4;
-} */
+input:focus {
+    outline: none;
+}
 
 button {
     margin-top: 5px;
